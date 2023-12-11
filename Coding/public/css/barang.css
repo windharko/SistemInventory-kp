@@ -1,0 +1,60 @@
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+a:link, a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+.card-header{
+    background-color: aliceblue !important;
+    
+}
+
+.info{
+    margin: 10px;
+    border-width: 1.75px;
+    border-style: groove;
+    border-radius: 5px;
+    margin-top: 56px !important;
+    margin-bottom: 45px;
+}
+
+tr{
+    height: 150px;
+}
+
+.table{
+    margin: 0px !important;
+}
+
+.thumbnail{
+    height: 110px;
+}
+
+.img-thumbnail{
+    height: 100% !important;
+}
+
+#printform{
+    margin: 0;
+}
+
+#print{
+    width: 140px !important;
+}
+
+#img{
+    height: 130px;
+}
+
+.overflow-auto{
+    margin: 0;
+    height: 60%;
+}

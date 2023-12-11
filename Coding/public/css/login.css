@@ -1,0 +1,77 @@
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    border-radius: 50%;
+    width: fit-content;
+    background-color: black !important;
+}
+
+.title-container{
+    background-color: aliceblue;
+}
+
+#login{
+    width: 380px;
+    border-width: 3px;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.login, .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    background-color: #227AFF;
+    margin: 0px;
+    height: 40px;
+}
+
+button{
+    width: 120px;
+}
+
+form{
+    margin: 0px !important;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 374px; 
+    background-color: #227AFF;
+    flex-wrap: wrap;
+}
+
+input[type="email"],
+input[type="password"]{
+    background: #ffffff;
+    color: #1a1717;
+    border: 2px;
+    border-style: groove;
+    border-radius: 10px;   
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: none;
+    border: none;
+    background: #ffffff;
+    color: #1a1717;
+    margin: 0;   
+}
+
+#logo{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}

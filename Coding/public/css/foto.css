@@ -1,0 +1,19 @@
+img{
+    width: 1%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.card{
+    width: 100%;
+}
+
+a:link, a:visited{
+    color:black;
+    text-decoration: none;
+}

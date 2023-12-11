@@ -1,0 +1,41 @@
+.card-img-top{
+    width: 25%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    margin-top: 56px;
+    margin-bottom: 45px;
+    height: 580px;
+}
+
+.card{
+    width: 100%;
+}
+
+#sidebar{
+    margin-right: 2px;
+}
+
+#right{
+    margin-left: 2px;
+}
+
+.table{
+    margin: 0 !important;
+}
+#diluar{
+    margin-bottom: 2px;
+    height: 50%;
+}
+
+#history{
+    margin-top: 2px;
+    height: 50%;
+}
+
+.overflow-auto{
+    height: 100%;
+}

@@ -1,0 +1,48 @@
+a:link, a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+.global-container{
+    margin-top: 56px;
+    margin-bottom: 45px;
+}
+
+.card-header{
+    background-color: rgb(221, 228, 235) !important;
+    
+}
+
+.main-content{
+    margin: 10px;
+    border-width: 1.75px;
+    border-style: groove;
+    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.thumbnail{
+    width: 300px;
+}
+
+.input{
+    width: 240px;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    width: 300px;
+    border-width: 1.75px;
+    border-style: groove;
+    border-radius: 5px;   
+}
